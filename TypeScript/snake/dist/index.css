@@ -1,0 +1,42 @@
+body {
+   margin: 0px;
+   padding: 0px;
+}
+
+.main {
+   height: 100vh;
+   width: 100vw;
+   display: block;
+   position: relative;
+}
+
+.game-container {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+
+   transform: translate(-50%, -50%);
+}
+
+#snake-game {
+   display: relative;
+}
+
+#snake-game canvas {
+   position: absolute !important;
+}
+
+#score {
+   position: absolute !important;
+   /* width: 100%; */
+   /* height: 100%; */
+
+   top: 0px;
+
+   background-color: rgba(255, 255, 255, 0.7);
+}
+
+#score span {
+   display: block;
+   position: absolute;
+}
